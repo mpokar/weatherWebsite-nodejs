@@ -1,3 +1,26 @@
+
+/*=========================================== 
+ * Importing CSS Libraries
+ *===========================================*/
+
+/* Custome CSS for error */
+
+.errr {
+  color: red;
+  margin: -75px auto; /* 15% from the top and centered */
+  width: 45%;
+  font-size: xx-large;
+  font-weight: 100;
+  background:#222530b8;
+  text-align: center;
+  outline: none;
+  border: none;
+  border-radius: 17px;
+}
+
+/* Custome Css end */
+
+
  article,
  aside,
  details,
@@ -8,13 +31,6 @@
  hgroup,
  nav,
  section,
-
-.mitesh {
-  font-size: xx-large;
-  margin: 250px;
-  margin-left: 600px;
-}
-
  summary {
    display: block; }
  
@@ -214,12 +230,14 @@
    font-size: 14px;
    font-weight: 300;
    line-height: 1.5;
-   background: #1e202b; }
+   background: #1e202b;}
  
  h1, h2, h3, h4, h5, h6 {
    font-weight: 700;
-   margin: 0 0 20px;
-   line-height: normal; }
+   margin: 0 0 -30px;
+   line-height: normal; 
+  text-align: center;
+  padding-right: 60px;}
  
  hr {
    border: none;
